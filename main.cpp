@@ -6,11 +6,12 @@ float a, b, c, x1, x2, discriminant, realPart, imaginaryPart;
 class QuadraticFunction {
 public:
     float discriminateReturn() {
-        float d=b * b - 4 * a * c;
-        cout<< setprecision(4) << fixed<<"Discriminant="<<d<<endl;
-        return d;
+        float discriminant=b * b - 4 * a * c;
+        cout<< setprecision(4) << fixed<<"Discriminant="<<discriminant<<endl;
+        return discriminant;
     }
     int roots() {
+        float discriminant=b * b - 4 * a * c;
         if (discriminant > 0) {
             x1 = (-b + sqrt(discriminant)) / (2 * a);
             x2 = (-b - sqrt(discriminant)) / (2 * a);
