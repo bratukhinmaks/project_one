@@ -25,7 +25,7 @@ public:
         } else {
             realPart = -b / (2 * a);
             imaginaryPart = sqrt(-discriminant) / (2 * a);
-            cout << "Roots are complex and different." << endl;
+            cout << "Roots are complex." << endl;
             cout << setprecision(4) << fixed << "x1 = " << realPart << "+" << imaginaryPart << "i" << endl;
             cout << setprecision(4) << fixed << "x2 = " << realPart << "-" << imaginaryPart << "i" << endl;
         }
