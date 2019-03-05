@@ -6,11 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/Users/macbookpro/projects/LAB09/main.cpp
+/Users/macbookpro/projects/LAB09/MyClass.cpp
+MyClass.hh
+/Users/macbookpro/projects/LAB09/MyClass.hh
 iostream
 -
 cmath
 -
 iomanip
 -
+
+/Users/macbookpro/projects/LAB09/MyClass.hh
+
+/Users/macbookpro/projects/LAB09/main.cpp
+iostream
+-
+MyClass.hh
+/Users/macbookpro/projects/LAB09/MyClass.hh
 
